@@ -1,0 +1,101 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #FFDEE9, #B5EAEA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Main container styles */
+.container {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Heading styles */
+h2 {
+    font-size: 28px;
+    color: #2d3436;
+    margin-bottom: 30px;
+}
+
+/* Input field and button styles */
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="password"]:focus {
+    border-color: #00b894;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #00b894;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #019875;
+}
+
+/* Result Box Styles */
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.result.strong {
+    background-color: #55efc4;
+    color: #2d3436;
+}
+
+.result.moderate {
+    background-color: #ffeaa7;
+    color: #2d3436;
+}
+
+.result.weak {
+    background-color: #fab1a0;
+    color: #2d3436;
+}
+
+.result ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.result ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
